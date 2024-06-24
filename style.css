@@ -1,0 +1,128 @@
+/* KENIA YARETSY CARRILLO SORIA */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 40px;
+}
+div#general{
+    margin:auto;
+    width: 1200px;
+    height: 600px;
+    background-image: url(../IMG/fondo-of.png) ;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+div#general3{
+    margin:auto;
+    width: 1200px;
+    height: auto;
+    padding: 40px;
+}
+.menu{
+    margin:auto;
+    width: 1000px;
+    height: auto;
+    padding: 40px;
+}
+.container__cover .svg img{
+width: 600px;
+animation: move-vector 3s linear infinite;
+margin: left;
+}
+.container {
+    display: flex; 
+}
+.left-section {
+    width: 350px;
+    height: auto;
+    display: flex;  
+    align-items: center; 
+    padding: 40px;
+}
+.right-section{
+    width: 950px;
+    height:auto;
+    text-align: center; 
+    padding: 20px;
+}
+.container {
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+}
+.svg img{
+    width: 650px;
+    animation: move-vector 3s linear infinite;
+    margin: left;
+}
+@keyframes move-vector{
+    0%{
+        transform: translate(15px);
+    }50%{
+        transform: translatey(0px);
+    }100%{
+        transform: translatey(15px);
+    }
+}
+nav{
+    max-width: 00px;
+    background-color: rgb(243, 191, 176);
+    font-size: 25px;
+    margin-top: 00px;
+   
+}
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+}
+.menu-horizontal >li> a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 19px;
+    color: black;  
+    text-transform: uppercase;
+    width: 230px; 
+    margin: left;
+}
+header, div#general2 {
+	background: #edefee;
+	border-radius:0.5em;
+	margin: 0.5em auto;
+	max-width: 1300px; 
+	padding: 0.25em;
+	color: rgb(7, 7, 7);
+	text-align: left;
+}
+header{
+    background: #ffffff; 
+    padding: 40px;  
+}
+@font-face {
+    font-family: fuente1;
+    src: url(../FONTS/exo/Exo-Medium.otf);
+}
+body{
+    font-family: fuente1;
+}
+.image-container {
+    max-width: 100%;
+    margin: 20px auto;
+    text-align: center; 
+}
+.image-container img {
+    display: inline-block;
+    width: 11%; 
+    margin: 0 5px;
+    vertical-align: top; 
+}
+
